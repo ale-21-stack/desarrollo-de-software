@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo Practico Nº1</title>
+    <style>
+        table{
+            width: 30%;
+            border-collapse: collapse;
+        }
+        th,
+        td{
+            border:1px solid black;
+            padding:  8px;
+            text-align: center;
+        }
+    </style>
+  
+</head>
+<body>
+<main>
+<section id="estructura-basica">
+    <h1>1.Estructura Basica del Documento HTML </h1>
+        <P>Este documneto HTML tiene una estructura basica que incluye la documentacion DOCTYPE,etiquetas de metadatos y un titulo.</P>
+</section>
+    <section id="encabezados-propiedades">
+    <h1>2.Encabezados y Propiedades del Texto</h1>
+    <article>
+        <h3><b>Este es un texto en negrita</b></h3>
+    </article>
+    <article> 
+        <h4><em>Este es un texto en cursiva</em></h4>
+    </article>
+    <article>
+        <h5><u>Es un texto subrayado</u></h5>
+    </article>
+    </section>
+
+    <section id="divisiones-agrupacion">
+        <h1>3.Diviciones y Agrupacion de Contenido</h1>
+        <article>
+        <h3><b>Seccion 1</b></h3>
+        <p>Contenido de la primera seccion agrupada en un div.</p>
+        </article>
+        <article>
+        <h3><b>Seccion 2</b></h3>
+        <p>Contenido de la primera seccion agrupada en un div.</p>
+        </article>
+    </section>
+
+<section id="enlaces-listas">
+    <h2>4. Enlaces y Listas</h2>
+    <h4>Visita nuestro <a href="https://www.google.com/" target="_blank">Sitio Web</a> para más información</h4>
+    <p>Enlaces internos:</p>
+    <nav>
+        <ul>
+            <li><a href="#estructura-basica">Ir a 1. Estructura Básica del Documento HTML</a></li>
+            <li><a href="#encabezados-propiedades">Ir a 2. Encabezados y Propiedades del Texto</a></li>
+            <li><a href="#divisiones-agrupacion">Ir a 3. Divisiones y Agrupación de Contenido</a></li>
+            <li><a href="#enlaces-listas">Ir a 4. Enlaces y Listas</a></li>
+            <li><a href="#elementos-multimedia">Ir a 5. Elementos Multimedia</a></li>
+            <li><a href="#tablas">Ir a 6. Tablas</a></li>
+            <li><a href="#formularios">Ir a 4.7 Formularios</a></li>
+        </ul>
+    </nav>
+<div>
+    <p>Lista desordenada:</p>
+    <ul>
+        <li>Primer item de una lista desodenada</li>
+        <li>Segundo item de una lista desordenada</li>
+</ul>
+</div>
+<div>
+    <p>Lista ordenada: </p>
+    <ol>
+        <li>Primer item de una lista desodenada</li>
+        <li>Segundo item de una lista desordenada</li>
+    </ol>
+</div>
+</section>
+
+<section id="elementos-multimedia">
+    <h1>5.Elementos Multimedia</h1>
+    
+        <img src="https://www.cariverplate.com.ar/imagenes/contenidos/2024-06/25165-25160-river20tigre_0281.jpg" width="200px" height="200px" alt="es una imagen" />
+    <video src="C:\desarrollo de sofware\imagenes\mov_bbb.mp4" controls width="300" height="200"/>
+    </section>
+    <div>
+        <audio src="C:\desarrollo de sofware\imagenes\mov_bbb.mp3" controls />
+    </div>
+
+       
+<section id="tablas">
+<h1>6.Tablas</h1>
+<table>
+        <thead>
+            <tr>
+                <th>Columna1</th>
+                <th>Columna2</th>
+            </tr>
+        </thead>
+    </tbody>
+        <tr>
+            <td> Dato 1</td>
+            <td> Dato 2</td>
+        </tr>
+    <tr>
+        <td> Dato 3</td>
+        <td> Dato 4</td>
+    </tr>
+    </tbody>
+</table>
+
+
+<section id="formularios">
+    <h1>4.7 Formularios</h1>
+    <form>
+        <fieldset>
+            <legend >contactenos llenado el siguiente formulario </legend>
+        <div>
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" placeholder="Ingrese su Nombre" />
+        </div>
+        <div>
+            <label for="edad">Edad</label>
+            <input type="number" id="edad" placeholder="Ingrese su edad">
+        </div>
+        <div>
+            <label for="fecha-nacimiento">Fecha de nacimiento</label>
+            <input type="date" id="fecha-nacimiento">
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="example@gmail.com" />
+        </div>
+        <div>
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" placeholder="Escriba su mensaje aquí"></textarea>
+        </div>
+        <button type="submit">Enviar</button>
+    </form>
+</fieldset>
+</section>
+</main>
+
+
+<footer>
+    <p>&copy; 2024 Trabajo Práctico Nº1. Todos los derechos reservados de Alex Lucero.</p>
+</footer>
+
+</body>
+</html>
